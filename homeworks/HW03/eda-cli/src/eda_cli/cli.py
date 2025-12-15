@@ -63,11 +63,11 @@ def overview(
 @app.command()
 def report(
     path: str = typer.Argument(..., help="Путь к CSV-файлу."),
-    title: str = typer.Argument("CSV analyze", help="Название отчета"),
     out_dir: str = typer.Option("reports", help="Каталог для отчёта."),
     sep: str = typer.Option(",", help="Разделитель в CSV."),
     encoding: str = typer.Option("utf-8", help="Кодировка файла."),
     max_hist_columns: int = typer.Option(6, help="Максимум числовых колонок для гистограмм."),
+    title: str = typer.Option("CSV analyze", help="Название отчета"),
     min_missing_share: float = typer.Option(
         0.2,
         help="Порог доли пропусков, чтобы колонка считалась проблемной.",
