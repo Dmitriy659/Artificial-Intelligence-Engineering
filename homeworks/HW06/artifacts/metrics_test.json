@@ -1,0 +1,17 @@
+{
+  "DecisionTree": {
+    "accuracy": 0.8766666667,
+    "f1": 0.8,
+    "ROC-AUC": 0.9069205157
+  },
+  "RandomForest": {
+    "accuracy": 0.9116666667,
+    "f1": 0.8519553073,
+    "ROC-AUC": 0.9581328399
+  },
+  "GradientBoosting": {
+    "accuracy": 0.91625,
+    "f1": 0.8633582597,
+    "ROC-AUC": 0.9610124867
+  }
+}
