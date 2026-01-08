@@ -1,0 +1,56 @@
+{
+    "dataset1": {
+        "KMeans": {
+            "k": 2,
+            "random_state": 42,
+            "n_init": 10,
+            "Silhouette": 0.522,
+            "Davies-Bouldin": 0.685,
+            "Calinski-Harabasz": 11786.955
+        },
+        "DBSCAN": {
+            "eps": 0.7,
+            "min_samples": 5,
+            "Silhouette": 0.380,
+            "Davies-Bouldin": 1.261,
+            "Calinski-Harabasz": 8354.891,
+            "noise_ratio": 0.004
+        }
+    },
+    "dataset2": {
+        "KMeans": {
+            "k": 2,
+            "random_state": 42,
+            "n_init": 10,
+            "Silhouette": 0.307,
+            "Davies-Bouldin": 1.323,
+            "Calinski-Harabasz": 3573.393
+        },
+        "DBSCAN": {
+            "eps": 0.5,
+            "min_samples": 5,
+            "Silhouette": -0.058,
+            "Davies-Bouldin": 0.790,
+            "Calinski-Harabasz": 49.822,
+            "noise_ratio": 0.045
+        }
+    },
+    "dataset3": {
+        "KMeans": {
+            "k": 3,
+            "random_state": 42,
+            "n_init": 10,
+            "Silhouette": 0.316,
+            "Davies-Bouldin": 1.158,
+            "Calinski-Harabasz": 6957.163
+        },
+        "DBSCAN": {
+            "eps": 0.45,
+            "min_samples": 5,
+            "Silhouette": 0.055,
+            "Davies-Bouldin": 1.225,
+            "Calinski-Harabasz": 826.914,
+            "noise_ratio": 0.032
+        }
+    }
+}
