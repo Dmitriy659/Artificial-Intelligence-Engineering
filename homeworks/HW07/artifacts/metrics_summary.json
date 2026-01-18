@@ -27,12 +27,12 @@
             "Calinski-Harabasz": 3573.393
         },
         "DBSCAN": {
-            "eps": 0.5,
-            "min_samples": 5,
-            "Silhouette": -0.058,
-            "Davies-Bouldin": 0.790,
-            "Calinski-Harabasz": 49.822,
-            "noise_ratio": 0.045
+            "eps": 0.28,
+            "min_samples": 6,
+            "Silhouette": 0.271,
+            "Davies-Bouldin": 0.653,
+            "Calinski-Harabasz": 15.718,
+            "noise_ratio": 0.054
         }
     },
     "dataset3": {
@@ -45,12 +45,12 @@
             "Calinski-Harabasz": 6957.163
         },
         "DBSCAN": {
-            "eps": 0.45,
-            "min_samples": 5,
-            "Silhouette": 0.055,
-            "Davies-Bouldin": 1.225,
-            "Calinski-Harabasz": 826.914,
-            "noise_ratio": 0.032
+            "eps": 0.5,
+            "min_samples": 12,
+            "Silhouette": 0.143,
+            "Davies-Bouldin": 1.393,
+            "Calinski-Harabasz": 1643.511,
+            "noise_ratio": 0.036
         }
     }
 }

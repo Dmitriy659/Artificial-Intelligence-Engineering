@@ -9,13 +9,12 @@
     "reason": "Чёткие кластеры, высокая устойчивость (ARI=1), нет шума."
   },
   "dataset2": {
-    "best_model": "KMeans",
+    "best_model": "DBSCAN",
     "parameters": {
-      "k": 2,
-      "random_state": 42,
-      "n_init": 10
+      "eps": 0.28,
+      "min_samples": 6
     },
-    "reason": "DBSCAN плохо справился с нелинейной структурой; KMeans даёт стабильное разбиение."
+    "reason": "KMeans начианет создавать ложные кластеры."
   },
   "dataset3": {
     "best_model": "KMeans",
