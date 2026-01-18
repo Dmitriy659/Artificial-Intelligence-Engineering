@@ -66,11 +66,11 @@
 
 **Dataset 2:**  
 - KMeans (`k=2..20`)  
-- DBSCAN (`eps`, `min_samples=5`)  
+- DBSCAN (`eps`, `min_samples=6`)  
 
 **Dataset 3:**  
 - KMeans (`k=2..20`)  
-- DBSCAN (`eps`, `min_samples=5`)  
+- DBSCAN (`eps`, `min_samples=12`)  
 
 Параметры подбирались по метрикам Silhouette и визуальной оценке кластеров.
 
@@ -88,13 +88,13 @@
 
 ### 4.2 Dataset B
 
-- **Лучший метод и параметры:** KMeans, k=2, random_state=42, n_init=10  
+- **Лучший метод и параметры:** DBSCAN, eps=0.28,  min_samples=6 
 - **Метрики:**  
-  - Silhouette: 0.307  
-  - Davies-Bouldin: 1.323  
-  - Calinski-Harabasz: 3573.393  
-- **DBSCAN:** eps=0.5, min_samples=5, доля шума 0.045, Silhouette -0.058  
-- **Комментарий:** Нелинейная структура и выбросы мешают DBSCAN, KMeans даёт более стабильное и интерпретируемое разбиение  
+  - Silhouette Score (non-noise): 0.271
+  - Davies-Bouldin Score (non-noise): 0.653
+  - Calinski-Harabasz Score (non-noise): 15.718
+- **KMeans:** k=2, random_state=42, n_init=10 
+- **Комментарий:** Нелинейная структура и выбросы мешают KMeans и заставляют находить ложные кластеры  
 
 ### 4.3 Dataset C
 
@@ -124,7 +124,7 @@
 
 - Кластеры выделены по схожести признаков (средние значения по числовым столбцам)  
 - Dataset 1: два чётких кластера  
-- Dataset 2: два кластера сливаются
+- Dataset 2: Один кластер с шумом
 - Dataset 3: три кластера сильно сливаются 
 - Вывод: KMeans даёт интерпретируемое разбиение, DBSCAN в сложных структурах уступает
 
