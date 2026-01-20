@@ -9,8 +9,7 @@
   "RandomForest": {
     "best_params": {
       "max_depth": 10,
-      "min_samples_leaf": 1,
-      "n_estimators": 100
+      "min_samples_leaf": 1
     },
     "cv_score": 0.9626798267960366
   },

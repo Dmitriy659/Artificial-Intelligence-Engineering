@@ -35,13 +35,13 @@
 
 ## 4. Results
 
-| Model                  | Accuracy | F1     | ROC-AUC  |
-|------------------------|----------|--------|----------|
-| DummyClassifier        | 0.677    | 0.0    | –        |
-| LogisticRegression     | 0.828    | 0.708  | 0.875    |
-| DecisionTreeClassifier | 0.877    | 0.800  | 0.907    |
-| RandomForestClassifier | 0.912    | 0.852  | 0.958    |
-| GradientBoosting       | 0.916    | 0.863  | 0.961    |
+| Model                  | Accuracy | F1     | ROC-AUC |
+|------------------------|----------|--------|---------|
+| DummyClassifier        | 0.677    | 0.0    | 0.5     |
+| LogisticRegression     | 0.828    | 0.708  | 0.875   |
+| DecisionTreeClassifier | 0.877    | 0.800  | 0.907   |
+| RandomForestClassifier | 0.912    | 0.852  | 0.958   |
+| GradientBoosting       | 0.916    | 0.863  | 0.961   |
 
 **Победитель:** GradientBoostingClassifier по ROC-AUC и F1; показывает наилучшее разделение классов и баланс precision/recall.
 
