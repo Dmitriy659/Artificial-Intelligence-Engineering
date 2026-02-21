@@ -1,0 +1,15 @@
+{
+    "dataset": "KMNIST",
+    "seed": 42,
+    "hidden_dims": [
+        512,
+        256
+    ],
+    "dropout": 0.3,
+    "batchnorm": false,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "loss": "CrossEntropyLoss",
+    "early_stopping": false,
+    "patience": 3
+}
