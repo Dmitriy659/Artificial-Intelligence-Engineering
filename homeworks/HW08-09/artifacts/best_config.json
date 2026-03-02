@@ -1,5 +1,5 @@
 {
-    "dataset": "KMNIST",
+    "dataset": "EMNIST",
     "seed": 42,
     "hidden_dims": [
         512,
@@ -9,7 +9,9 @@
     "batchnorm": false,
     "optimizer": "Adam",
     "learning_rate": 0.001,
+    "momentum": 0.0,
+    "weight_decay": 0.0,
     "loss": "CrossEntropyLoss",
-    "early_stopping": false,
-    "patience": 3
+    "early_stopping": true,
+    "patience": 5
 }
