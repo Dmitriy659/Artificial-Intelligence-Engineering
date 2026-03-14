@@ -1,0 +1,10 @@
+{
+    "experiment": "C4",
+    "dataset": "STL10",
+    "seed": 42,
+    "batch_size": 64,
+    "epochs": 6,
+    "optimizer": "Adam",
+    "lr": 0.0001,
+    "transforms": "base"
+}
