@@ -1,0 +1,5 @@
+experiment_id,task,dataset,seed,split_summary,window_size,horizon,model_summary,features_summary,scaler,optimizer,lr,epochs_trained,best_val_mae,best_val_rmse,best_val_mape,test_mae,test_rmse,test_mape,notes
+B1,forecasting,S12-hw-dataset.csv,42,"train: 3014, val: 646, test: 646",,1,naive-last,,,,,,6.449736434108527,8.20936300392622,4.398865135318764,,,,Second best model
+B2,forecasting,S12-hw-dataset.csv,42,"train: 3014, val: 646, test: 646",7,1,moving-average,,,,,,12.732980102839258,15.263753743005205,8.84007987494075,,,,Fourth best model
+B3,forecasting,S12-hw-dataset.csv,42,"train: 3014, val: 646, test: 646",,1,Ridge,"['lag_1', 'lag_7', 'lag_14', 'rolling_mean_7', 'rolling_std_7', 'day_of_week']",StandardScaler(features only),,,,7.171741009487222,8.723751699263925,4.7824210807227745,,,,Third best model
+R1,forecasting,S12-hw-dataset.csv,42,"train: 3014, val: 646, test: 646",7,1,"GRU(hidden_size=32, batch_size=32)",target sequence,StandardScaler(target),Adam,0.001,20,6.16652774810791,7.696151207467478,4.145132064819336,6.389373302459717,8.108334395541533,4.130075931549072,Best model

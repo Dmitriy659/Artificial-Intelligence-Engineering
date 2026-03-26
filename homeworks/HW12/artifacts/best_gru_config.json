@@ -1,0 +1,11 @@
+{
+    "model": "GRU",
+    "input_size": 1,
+    "hidden_size": 32,
+    "window_size": 7,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "optimizer": "Adam",
+    "seed": 42,
+    "scaler": "StandardScaler(target)"
+}
