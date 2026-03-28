@@ -6,5 +6,7 @@
     "epochs": 6,
     "optimizer": "Adam",
     "lr": 0.0001,
-    "transforms": "base"
+    "transforms": "base",
+    "model": "resnet18",
+    "architecture": "ResNet18 pretrained (IMAGENET1K_V1), fc replaced with Linear(512\u219210), trainable layers: layer4 + fc, \u043e\u0441\u0442\u0430\u043b\u044c\u043d\u044b\u0435 \u0441\u043b\u043e\u0438 \u0437\u0430\u043c\u043e\u0440\u043e\u0436\u0435\u043d\u044b"
 }
