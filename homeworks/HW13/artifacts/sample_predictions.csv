@@ -1,11 +1,11 @@
 text,true_label,pred_label,confidence
-i told my fiance how i am feeling so angry and upset,anger,sadness,0.47488517
-i feel i m handling it well and i m enjoying it he said,joy,joy,0.74927443
-i feel these days living in fears just another way of dying before your time so today i am declaring myself fearless,joy,joy,0.3711126
-im just now realizing i didnt have a diet coke today and that makes me feel proud regardless of the other junk i consumed today,joy,joy,0.7755782
-im feeling rather angsty and listless,sadness,sadness,0.48373443
-i got off the phone feeling numb,sadness,sadness,0.5179361
-i feel last time ure the one that feel paranoid,fear,sadness,0.45730165
-i feel slytherin is my house slytherin is for those who are smart enough to know how to get the job done and at any cost,joy,joy,0.7550393
-i feel completely rude with not keeping up with some of you over the course of the year but it has been a mightily busy one,anger,sadness,0.49219388
-i feel like most teams would have appeased jackson at this point but the eagles are terribly stubborn,anger,sadness,0.47813848
+i told my fiance how i am feeling so angry and upset,anger,anger,0.9623931
+i feel i m handling it well and i m enjoying it he said,joy,joy,0.96824473
+i feel these days living in fears just another way of dying before your time so today i am declaring myself fearless,joy,joy,0.94413495
+im just now realizing i didnt have a diet coke today and that makes me feel proud regardless of the other junk i consumed today,joy,joy,0.9671553
+im feeling rather angsty and listless,sadness,anger,0.8449598
+i got off the phone feeling numb,sadness,sadness,0.98444366
+i feel last time ure the one that feel paranoid,fear,fear,0.9078591
+i feel slytherin is my house slytherin is for those who are smart enough to know how to get the job done and at any cost,joy,joy,0.968758
+i feel completely rude with not keeping up with some of you over the course of the year but it has been a mightily busy one,anger,anger,0.9624259
+i feel like most teams would have appeased jackson at this point but the eagles are terribly stubborn,anger,anger,0.9476311
