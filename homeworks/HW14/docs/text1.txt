@@ -1,0 +1,14 @@
+Dimensionality reduction, or dimension reduction, is the transformation of data from a high-dimensional space into a low-dimensional space so that the low-dimensional representation retains some meaningful properties of the original data, ideally close to its intrinsic dimension. Working in high-dimensional spaces can be undesirable for many reasons; raw data are often sparse as a consequence of the curse of dimensionality, and analyzing the data is usually computationally intractable. Dimensionality reduction is common in fields that deal with large numbers of observations and/or large numbers of variables, such as signal processing, speech recognition, neuroinformatics, and bioinformatics.[1]
+
+Methods are commonly divided into linear and nonlinear approaches.[1] Linear approaches can be further divided into feature selection and feature extraction.[2] Dimensionality reduction can be used for noise reduction, data visualization, cluster analysis, or as an intermediate step to facilitate other analyses.
+
+Feature selection
+Main article: Feature selection
+See also: Combinatorial optimization
+The process of feature selection aims to find a suitable subset of the input variables (features, or attributes) for the task at hand. The three strategies are: the filter strategy (e.g., information gain), the wrapper strategy (e.g., accuracy-guided search), and the embedded strategy (features are added or removed while building the model based on prediction errors).
+
+Data analysis such as regression or classification can be done in the reduced space more accurately than in the original space.[3]
+
+Feature projection
+Main article: Feature extraction
+Feature projection (also called feature extraction) transforms the data from the high-dimensional space to a space of fewer dimensions. The data transformation may be linear, as in principal component analysis (PCA), but many nonlinear dimensionality reduction techniques also exist.[4][5] For multidimensional data, tensor representation can be used in dimensionality reduction through multilinear subspace learning.[6]

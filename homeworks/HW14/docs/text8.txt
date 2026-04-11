@@ -1,0 +1,7 @@
+In machine learning, backpropagation is a gradient computation method commonly used for training a neural network in computing parameter updates.
+
+It is an efficient application of the chain rule to neural networks. Backpropagation efficiently computes the gradient of the loss with respect to the network weights for a single input–output example. It does this by propagating derivatives backward, one layer at a time, from the output layer to the input layer, thereby avoiding redundant chain-rule calculations.
+
+Strictly speaking, the term backpropagation refers only to an algorithm for efficiently computing the gradient, not how the gradient is used; but the term is often used loosely to refer to the entire learning algorithm. This includes changing model parameters in the negative direction of the gradient, such as by stochastic gradient descent, or as an intermediate step in a more complicated optimizer, such as Adaptive Moment Estimation.[1]
+
+Backpropagation had multiple discoveries and partial discoveries, with a tangled history and terminology. See the history section for details. Some other names for the technique include "reverse mode of automatic differentiation" or "reverse accumulation".[2]

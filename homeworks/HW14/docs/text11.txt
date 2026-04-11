@@ -1,0 +1,24 @@
+What is deep learning?
+Deep learning is a type of machine learning that can recognize complex patterns and make associations in a similar way to humans. Its abilities can range from identifying items in a photo or recognizing a voice to driving a car or creating an illustration. Essentially, a deep learning model is a computer program that can exhibit intelligence, thanks to its complex and sophisticated approach to processing data.
+
+Deep learning is one kind of artificial intelligence (AI), and it is core to how many AI services and models function. Large language models (LLMs) such as ChatGPT, Bard, and Bing Chat, and image generators such as Midjourney and DALL-E, rely on deep learning to learn language and context, and to produce realistic responses. Predictive AI models use deep learning to gain conclusions from sprawling collections of historical data.
+
+How does deep learning work?
+Usually, using a computer program requires precise inputs for obtaining the correct outputs. Deep learning, in contrast, can take arbitrary or imprecise data and produce a relevant output. For example, a traditional computer program might be able to tell if two digital portraits are exactly the same. A deep learning model might be able to recognize similarities in the portrait's subjects, even if the portraits themselves are different.
+
+Deep learning relies on large data sets and lots of computational power — and as the availability of those two things has increased, deep learning models have become more sophisticated. Today, big data collections and GPU-powered cloud computing services make deep learning more accessible to developers and everyday users than ever before.
+
+What is the difference between machine learning and deep learning?
+Machine learning is a type of computer program that can learn without explicit instructions. Deep learning is a specialized kind of machine learning, just as a jet is a specialized kind of airplane. Both involve letting a computer program learn on its own from a set of data. However, deep learning can do more, just as a jet is more powerful than a propeller plane or a glider.
+
+Deep learning can also learn from unlabeled data, while more basic machine learning models may require more context about the data they are fed in order to "learn" correctly. Finally, deep learning models are built using neural networks. Machine learning models may be built on neural networks, but this is not always the case.
+Deep learning already has a plethora of applications in the world today, and new uses are still being discovered. Current use cases include:
+
+Voice assistants
+Self-driving cars
+Predictive models
+Image creation
+Natural language processing
+Conversational AI chatbots
+Medical research
+(Techniques like low-rank adaptation can help developers quickly adapt a deep learning model for a new use case.)
