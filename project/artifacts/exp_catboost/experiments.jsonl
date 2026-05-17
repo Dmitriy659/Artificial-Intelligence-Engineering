@@ -1,0 +1,38 @@
+{
+  "run_id": "d3b9e3d7c7e5",
+  "created_at": "2026-05-16T15:28:51.826413",
+  "name": "catboost_optuna_final",
+  "model_family": "catboost",
+  "data_path": "data/loan_data.csv",
+  "data_sha256": "67cca604cd71cbd605014f721d078d20d44d726d625945591450733535f9868a",
+  "python": "3.13.13",
+  "platform": "macOS-26.4.1-arm64-arm-64bit-Mach-O",
+  "target": "loan_status",
+  "params": {
+    "iterations": 997,
+    "depth": 8,
+    "learning_rate": 0.10736082489080703,
+    "l2_leaf_reg": 8.339912909223575
+  },
+  "val_metrics": {
+    "roc_auc": 0.9760425,
+    "average_precision": 0.9339819223181206,
+    "f1": 0.8366428382314006,
+    "precision": 0.8891389983117614,
+    "recall": 0.79,
+    "accuracy": 0.9314444444444444,
+    "balanced_accuracy": 0.8809285714285715
+  },
+  "test_metrics": {
+    "roc_auc": 0.9773775000000001,
+    "average_precision": 0.9380615871936845,
+    "f1": 0.8483101912496726,
+    "precision": 0.8910291689598239,
+    "recall": 0.8095,
+    "accuracy": 0.9356666666666666,
+    "balanced_accuracy": 0.8906071428571429
+  },
+  "artifacts": {
+    "model": "artifacts/exp_catboost/models/catboost_final.cbm"
+  }
+}

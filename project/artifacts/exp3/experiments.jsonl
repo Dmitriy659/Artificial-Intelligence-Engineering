@@ -1,0 +1,77 @@
+{
+  "run_id": "1c62c24ad07d",
+  "created_at": "2026-05-16T14:59:06.353253",
+  "name": "logistic_regression",
+  "model_family": "sklearn",
+  "data_path": "data/loan_data.csv",
+  "data_sha256": "67cca604cd71cbd605014f721d078d20d44d726d625945591450733535f9868a",
+  "python": "3.13.13",
+  "platform": "macOS-26.4.1-arm64-arm-64bit-Mach-O",
+  "target": "loan_status",
+  "params": {
+    "C": 1.0,
+    "max_iter": 2000
+  },
+  "val_metrics": {
+    "roc_auc": 0.9509917857142857,
+    "average_precision": 0.8507915213185508,
+    "f1": 0.7439339184305628,
+    "precision": 0.7689434364994664,
+    "recall": 0.7205,
+    "accuracy": 0.8897777777777778,
+    "balanced_accuracy": 0.8293214285714285
+  },
+  "test_metrics": {
+    "roc_auc": 0.956113642857143,
+    "average_precision": 0.8632157422186292,
+    "f1": 0.7677286742034943,
+    "precision": 0.7896405919661733,
+    "recall": 0.747,
+    "accuracy": 0.8995555555555556,
+    "balanced_accuracy": 0.8450714285714286
+  },
+  "notes": "Simple interpretable linear baseline with scaling and one-hot encoding.",
+  "artifacts": {
+    "model": "artifacts/exp3/models/logistic_regression.joblib"
+  }
+}
+{
+  "run_id": "c3130705118c",
+  "created_at": "2026-05-16T14:59:06.985977",
+  "name": "random_forest_simple",
+  "model_family": "sklearn",
+  "data_path": "data/loan_data.csv",
+  "data_sha256": "67cca604cd71cbd605014f721d078d20d44d726d625945591450733535f9868a",
+  "python": "3.13.13",
+  "platform": "macOS-26.4.1-arm64-arm-64bit-Mach-O",
+  "target": "loan_status",
+  "params": {
+    "n_estimators": 200,
+    "min_samples_leaf": 5,
+    "class_weight": "balanced_subsample"
+  },
+  "val_metrics": {
+    "roc_auc": 0.9705972857142858,
+    "average_precision": 0.918291829745069,
+    "f1": 0.8121851763012713,
+    "precision": 0.7805440295066851,
+    "recall": 0.8465,
+    "accuracy": 0.913,
+    "balanced_accuracy": 0.8892500000000001
+  },
+  "test_metrics": {
+    "roc_auc": 0.9735967857142857,
+    "average_precision": 0.9270735839838956,
+    "f1": 0.8301526717557252,
+    "precision": 0.7937956204379562,
+    "recall": 0.87,
+    "accuracy": 0.9208888888888889,
+    "balanced_accuracy": 0.9027142857142857
+  },
+  "notes": "Tree ensemble baseline. Strong quality, but heavier and less convenient than CatBoost for categorical data.",
+  "artifacts": {
+    "model": "artifacts/exp3/models/random_forest_simple.joblib"
+  }
+}
+{"run_id": "b3dfad56b353", "created_at": "2026-05-16T15:01:06.486866", "name": "logistic_regression", "model_family": "sklearn", "data_path": "data/loan_data.csv", "data_sha256": "67cca604cd71cbd605014f721d078d20d44d726d625945591450733535f9868a", "python": "3.13.13", "platform": "macOS-26.4.1-arm64-arm-64bit-Mach-O", "target": "loan_status", "params": {"C": 1.0, "max_iter": 2000}, "val_metrics": {"roc_auc": 0.9509917857142857, "average_precision": 0.8507915213185508, "f1": 0.7439339184305628, "precision": 0.7689434364994664, "recall": 0.7205, "accuracy": 0.8897777777777778, "balanced_accuracy": 0.8293214285714285}, "test_metrics": {"roc_auc": 0.956113642857143, "average_precision": 0.8632157422186292, "f1": 0.7677286742034943, "precision": 0.7896405919661733, "recall": 0.747, "accuracy": 0.8995555555555556, "balanced_accuracy": 0.8450714285714286}, "artifacts": {"model": "artifacts/exp3/models/logistic_regression.joblib"}}
+{"run_id": "8af24abb960e", "created_at": "2026-05-16T15:01:10.756612", "name": "random_forest_simple", "model_family": "sklearn", "data_path": "data/loan_data.csv", "data_sha256": "67cca604cd71cbd605014f721d078d20d44d726d625945591450733535f9868a", "python": "3.13.13", "platform": "macOS-26.4.1-arm64-arm-64bit-Mach-O", "target": "loan_status", "params": {"n_estimators": 200, "min_samples_leaf": 5, "class_weight": "balanced_subsample"}, "val_metrics": {"roc_auc": 0.9705972857142858, "average_precision": 0.918291829745069, "f1": 0.8121851763012713, "precision": 0.7805440295066851, "recall": 0.8465, "accuracy": 0.913, "balanced_accuracy": 0.8892500000000001}, "test_metrics": {"roc_auc": 0.9735967857142857, "average_precision": 0.9270735839838956, "f1": 0.8301526717557252, "precision": 0.7937956204379562, "recall": 0.87, "accuracy": 0.9208888888888889, "balanced_accuracy": 0.9027142857142857}, "artifacts": {"model": "artifacts/exp3/models/random_forest_simple.joblib"}}

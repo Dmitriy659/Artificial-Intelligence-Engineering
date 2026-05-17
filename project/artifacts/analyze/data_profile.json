@@ -1,0 +1,40 @@
+{
+  "data_path": "data/loan_data.csv",
+  "data_sha256": "67cca604cd71cbd605014f721d078d20d44d726d625945591450733535f9868a",
+  "shape": [
+    45000,
+    14
+  ],
+  "target": "loan_status",
+  "target_counts": {
+    "0": 35000,
+    "1": 10000
+  },
+  "target_share": {
+    "0": 0.7777777777777778,
+    "1": 0.2222222222222222
+  },
+  "missing_total": 0,
+  "numeric_features": [
+    "person_age",
+    "person_income",
+    "person_emp_exp",
+    "loan_amnt",
+    "loan_int_rate",
+    "loan_percent_income",
+    "cb_person_cred_hist_length",
+    "credit_score"
+  ],
+  "categorical_features": [
+    "person_gender",
+    "person_education",
+    "person_home_ownership",
+    "loan_intent",
+    "previous_loan_defaults_on_file"
+  ],
+  "main_outliers": [
+    "loan_amnt",
+    "person_income",
+    "person_age"
+  ]
+}

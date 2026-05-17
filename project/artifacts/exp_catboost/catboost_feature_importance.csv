@@ -1,0 +1,14 @@
+feature,importance
+previous_loan_defaults_on_file,50.43930754803537
+loan_percent_income,10.241239707559199
+person_income,8.544025470232938
+loan_int_rate,7.945755802426597
+person_home_ownership,5.635910545945881
+loan_intent,4.62581243200748
+credit_score,3.6367456810585645
+loan_amnt,2.9851475169110966
+person_age,1.7624084819407082
+cb_person_cred_hist_length,1.484825121108533
+person_emp_exp,1.2533467771558515
+person_education,1.0625278646296474
+person_gender,0.3829470509882173
