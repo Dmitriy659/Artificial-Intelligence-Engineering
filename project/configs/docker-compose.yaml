@@ -1,0 +1,58 @@
+services:
+  postgres:
+    image: postgres:15
+    container_name: ai-postgres
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: AiModels
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  s3:
+    image: minio/minio:latest
+    container_name: ai-s3
+    restart: always
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: minio
+      MINIO_ROOT_PASSWORD: minio123
+    volumes:
+      - minio_data:/data
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+
+  create-bucket:
+    image: minio/mc:latest
+    container_name: ai-s3-init
+    depends_on:
+      - s3
+    entrypoint: >
+      /bin/sh -c "
+      sleep 5;
+      mc alias set local http://s3:9000 minio minio123;
+      mc mb local/ai-bucket --ignore-existing;
+      exit 0;
+      "
+
+  service:
+    build:
+      context: ..
+      dockerfile: configs/Dockerfile
+    container_name: ai-backend
+    depends_on:
+      - s3
+      - postgres
+      - create-bucket
+    env_file:
+      - .env.dev.example
+    ports:
+      - "8000:8000"
+
+volumes:
+  postgres_data:
+  minio_data:
