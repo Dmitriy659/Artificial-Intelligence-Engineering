@@ -1,0 +1,11 @@
+-r base.txt
+
+optuna
+jupyter
+scikit-learn
+
+pytest
+pytest-asyncio
+
+black
+isort

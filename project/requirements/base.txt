@@ -1,0 +1,14 @@
+fastapi[standard]==0.133.*
+SQLAlchemy[asyncio]
+asyncpg
+aioboto3
+python-jose[cryptography]
+pydantic-settings
+passlib==1.7.4
+bcrypt==4.0.1
+catboost
+openpyxl
+chardet
+botocore
+pandas
+pydantic
