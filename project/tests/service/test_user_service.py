@@ -6,13 +6,13 @@ import pytest
 from fastapi import HTTPException
 
 from src.orm.models import UserModel
-from src.schemas.user import RegisterSchema, LoginSchema, UpdateUserSchema
+from src.schemas.user import LoginSchema, RegisterSchema, UpdateUserSchema
 from src.service.user_service import (
-    register_user,
-    login_user,
     get_user_by_id,
-    update_user_service,
+    login_user,
     refresh_access_token,
+    register_user,
+    update_user_service,
 )
 
 
@@ -54,9 +54,9 @@ async def test_login_success():
 
     data = LoginSchema(email="test@example.com", password="StrongPass1!")
 
-    with patch("src.service.user_service.verify_password", return_value=True), \
-         patch("src.service.user_service.create_access_token", return_value="access"), \
-         patch("src.service.user_service.create_refresh_token", return_value="refresh"):
+    with patch("src.service.user_service.verify_password", return_value=True), patch(
+        "src.service.user_service.create_access_token", return_value="access"
+    ), patch("src.service.user_service.create_refresh_token", return_value="refresh"):
 
         result = await login_user(data, uow)
 
@@ -146,8 +146,9 @@ async def test_update_user():
 
 @pytest.mark.asyncio
 async def test_refresh_token():
-    with patch("src.service.user_service.decode_token") as decode_mock, \
-         patch("src.service.user_service.create_access_token", return_value="new_access"):
+    with patch("src.service.user_service.decode_token") as decode_mock, patch(
+        "src.service.user_service.create_access_token", return_value="new_access"
+    ):
 
         decode_mock.return_value = {
             "sub": "user-123",

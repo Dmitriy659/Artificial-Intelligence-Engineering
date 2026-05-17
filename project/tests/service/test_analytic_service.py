@@ -7,8 +7,12 @@ from fastapi import HTTPException
 
 from src.orm.enums import AnalyticStatus, DataType
 from src.orm.models import AnalyticModel, ColumnModel
-from src.service.analytic_service import create_analytic_service, analyze_analytic_service, list_analytics_service, \
-    delete_analytic_service
+from src.service.analytic_service import (
+    analyze_analytic_service,
+    create_analytic_service,
+    delete_analytic_service,
+    list_analytics_service,
+)
 
 
 def fake_analytic_model():
@@ -118,9 +122,7 @@ from src.service.analytic_service import get_analytic_service_full
 @pytest.mark.asyncio
 async def test_get_full():
     analytic = fake_analytic_model()
-    analytic.columns = [
-        fake_column_model(analytic.id)
-    ]
+    analytic.columns = [fake_column_model(analytic.id)]
 
     uow = AsyncMock()
     uow.__aenter__.return_value = uow
@@ -140,9 +142,7 @@ async def test_get_full():
 @pytest.mark.asyncio
 async def test_get_full():
     analytic = fake_analytic_model()
-    analytic.columns = [
-        fake_column_model(analytic.id)
-    ]
+    analytic.columns = [fake_column_model(analytic.id)]
 
     uow = AsyncMock()
     uow.__aenter__.return_value = uow

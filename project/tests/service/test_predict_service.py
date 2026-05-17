@@ -4,16 +4,16 @@ from uuid import uuid4
 
 import pandas as pd
 import pytest
-from fastapi import UploadFile, HTTPException
+from fastapi import HTTPException, UploadFile
 
 from src.orm.enums import PredictionStatus
 from src.orm.models import ORMPrediction
 from src.service.predict_service import (
     create_predict_task,
+    delete_predict_task,
+    get_prediction_report_service,
     get_prediction_status,
     get_predictions_list,
-    get_prediction_report_service,
-    delete_predict_task,
 )
 
 

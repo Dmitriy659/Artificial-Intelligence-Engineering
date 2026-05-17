@@ -1,17 +1,15 @@
 from fastapi import APIRouter, status
+from fastapi.responses import JSONResponse
+from sqlalchemy import text
 
 from ..orm.orm_base import engine
-from sqlalchemy import text
-from fastapi.responses import JSONResponse
 
 check_router = APIRouter(tags=["health"])
 
 
 @check_router.get("/health")
 async def health():
-    return {
-        "status": "ok"
-    }
+    return {"status": "ok"}
 
 
 @check_router.get("/ready")
@@ -22,13 +20,7 @@ async def readiness():
     except Exception as e:
         return JSONResponse(
             status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
-            content={
-                "status": "not_ready",
-                "reason": "database_unavailable",
-                "detail": str(e)
-            }
+            content={"status": "not_ready", "reason": "database_unavailable", "detail": str(e)},
         )
 
-    return {
-        "status": "ready"
-    }
+    return {"status": "ready"}

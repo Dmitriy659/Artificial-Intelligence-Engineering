@@ -11,9 +11,7 @@ from src.tasks.analytic.analyze_columns import (
 
 
 def test_numeric_column_analysis():
-    df = pd.DataFrame({
-        "a": [1, 2, 3, 4, 5]
-    })
+    df = pd.DataFrame({"a": [1, 2, 3, 4, 5]})
 
     result = analyze_dataset_columns(df, uuid4())
 
@@ -27,9 +25,7 @@ def test_numeric_column_analysis():
 
 
 def test_string_column_analysis():
-    df = pd.DataFrame({
-        "a": ["x", "y", "x", "z", "x"]
-    })
+    df = pd.DataFrame({"a": ["x", "y", "x", "z", "x"]})
 
     result = analyze_dataset_columns(df, uuid4())
 
@@ -42,9 +38,7 @@ def test_string_column_analysis():
 
 
 def test_datetime_column_analysis():
-    df = pd.DataFrame({
-        "a": pd.date_range("2024-01-01", periods=5)
-    })
+    df = pd.DataFrame({"a": pd.date_range("2024-01-01", periods=5)})
 
     result = analyze_dataset_columns(df, uuid4())
 
@@ -57,9 +51,7 @@ def test_datetime_column_analysis():
 
 
 def test_mixed_column_fallback_to_string():
-    df = pd.DataFrame({
-        "a": [1, "x", 3, "y", None]
-    })
+    df = pd.DataFrame({"a": [1, "x", 3, "y", None]})
 
     result = analyze_dataset_columns(df, uuid4())
 
