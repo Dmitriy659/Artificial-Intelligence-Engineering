@@ -108,7 +108,7 @@ cp ./configs/.env.example ./configs/.env
 
 Обязательно укажите:
 
-* `SECRET_KEY`
+* `SECRET_KEY` (любая строка из английских символов и цифр)
 
 ---
 
@@ -147,7 +147,7 @@ cp ./configs/.env.example ./configs/.env.dev.example
 Важно:
 
 * замените `localhost` в настройках на имена сервисов Docker (`postgres`, `s3`, и т.д.)
-* укажите `SECRET_KEY`
+* укажите `SECRET_KEY` (любая строка из английских символов и цифр)
 
 ---
 
