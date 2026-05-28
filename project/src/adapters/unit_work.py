@@ -1,9 +1,9 @@
 import abc
 
-from sqlalchemy.ext.asyncio import AsyncSession
+from sqlalchemy.ext.asyncio import AsyncSession, async_sessionmaker
 
-from ..orm.orm_base import AsyncSessionFactory
 from .repository import AbstractRepository, SqlAlchemyRepository
+import src.orm.orm_base as db
 
 
 class AbstractUnitOfWork(abc.ABC):
@@ -25,7 +25,9 @@ class AbstractUnitOfWork(abc.ABC):
 
 
 class SqlAlchemyUnitOfWork(AbstractUnitOfWork):
-    def __init__(self, session_factory=AsyncSessionFactory):
+    def __init__(self, session_factory: async_sessionmaker[AsyncSession] | None = None):
+        if not session_factory:
+            session_factory = db.AsyncSessionFactory
         self.session_factory = session_factory
         self.session: AsyncSession
 

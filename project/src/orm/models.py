@@ -3,15 +3,15 @@ from sqlalchemy.orm import relationship
 from sqlalchemy.sql import func
 
 from .enums import AnalyticStatus, DataType, PredictionStatus
-from .orm_base import Base, engine
+import src.orm.orm_base as db
 
 
 async def init_models():
-    async with engine.begin() as conn:
-        await conn.run_sync(Base.metadata.create_all)
+    async with db.engine.begin() as conn:
+        await conn.run_sync(db.Base.metadata.create_all)
 
 
-class UserModel(Base):
+class UserModel(db.Base):
     __tablename__ = "users"
 
     id = Column(UUID(as_uuid=True), primary_key=True)
@@ -21,7 +21,7 @@ class UserModel(Base):
     password_hash = Column(String(255), nullable=False)
 
 
-class AnalyticModel(Base):
+class AnalyticModel(db.Base):
     __tablename__ = "analytic"
 
     id = Column(UUID(as_uuid=True), primary_key=True)
@@ -37,7 +37,7 @@ class AnalyticModel(Base):
     columns = relationship("ColumnModel", back_populates="analytic", cascade="all, delete-orphan")
 
 
-class ColumnModel(Base):
+class ColumnModel(db.Base):
     __tablename__ = "columns"
 
     id = Column(Integer, primary_key=True)
@@ -54,7 +54,7 @@ class ColumnModel(Base):
     analytic = relationship("AnalyticModel", back_populates="columns")
 
 
-class ORMPrediction(Base):
+class ORMPrediction(db.Base):
     __tablename__ = "prediction"
 
     id = Column(UUID(as_uuid=True), primary_key=True)

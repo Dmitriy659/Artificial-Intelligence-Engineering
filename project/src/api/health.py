@@ -2,7 +2,7 @@ from fastapi import APIRouter, status
 from fastapi.responses import JSONResponse
 from sqlalchemy import text
 
-from ..orm.orm_base import engine
+import src.orm.orm_base as db
 
 check_router = APIRouter(tags=["health"])
 
@@ -15,7 +15,7 @@ async def health():
 @check_router.get("/ready")
 async def readiness():
     try:
-        async with engine.connect() as conn:
+        async with db.engine.connect() as conn:
             await conn.execute(text("SELECT 1"))
     except Exception as e:
         return JSONResponse(

@@ -57,7 +57,7 @@
 
 ### 3.2. Установка окружения
 
-Сценарий:
+Сценарий `Windows`:
 
 ```bash
 # Перейти в папку проекта
@@ -65,11 +65,19 @@ cd project
 
 # Создать виртуальное окружение (опционально, но рекомендуется)
 python -m venv .venv
-
-# Активировать окружение:
-# Windows:
 .venv\Scripts\activate
-# Linux / macOS:
+
+# Установить зависимости
+pip install --upgrade pip
+pip install -r requirements/dev.txt
+```
+
+Сценарий `macOS`/`Linux`:
+```bash
+# Перейти в папку проекта
+cd project
+
+python3 -m venv .venv
 source .venv/bin/activate
 
 # Установить зависимости
@@ -139,6 +147,7 @@ cp ./configs/.env.example ./configs/.env.dev.example
 Важно:
 
 * замените `localhost` в настройках на имена сервисов Docker (`postgres`, `s3`, и т.д.)
+* укажите `SECRET_KEY`
 
 ---
 

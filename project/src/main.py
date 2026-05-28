@@ -4,10 +4,12 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+from src.settings.settings import DatabaseSettings
 from src.api import api_router, health_router
 from src.logger.configure import configure_logger
 from src.logger.get_logger import get_logger
 from src.orm.models import init_models
+from src.orm.orm_base import init_db
 
 logger = get_logger(__name__)
 
@@ -15,6 +17,7 @@ logger = get_logger(__name__)
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     configure_logger()
+    init_db(DatabaseSettings().get_database_url_str)
     await init_models()
     logger.info("Models were initialized")
     os.environ["IS_READY"] = "True"
