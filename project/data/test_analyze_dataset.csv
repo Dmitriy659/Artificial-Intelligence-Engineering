@@ -1,0 +1,301 @@
+user_id,age,gender,education_level,employment_status,job_title,monthly_income_usd,monthly_expenses_usd,savings_usd,has_loan,loan_type,loan_amount_usd,loan_term_months,monthly_emi_usd,loan_interest_rate_pct,debt_to_income_ratio,credit_score,savings_to_income_ratio,region,record_date
+U00001,56,Female,High School,Self-employed,Salesperson,3531.69,1182.59,367655.03,No,None,0.0,0,0.0,0.0,0.0,430,8.68,Other,2024-01-09
+U00002,19,Female,PhD,Employed,Salesperson,3531.73,2367.99,260869.1,Yes,Education,146323.34,36,4953.5,13.33,1.4,543,6.16,North America,2022-02-13
+U00003,20,Female,Master,Employed,Teacher,2799.49,1003.91,230921.21,No,None,0.0,0,0.0,0.0,0.0,754,6.87,Africa,2022-05-12
+U00004,25,Male,PhD,Employed,Manager,5894.88,4440.12,304815.51,Yes,Business,93242.37,24,4926.57,23.93,0.84,461,4.31,Europe,2023-10-02
+U00005,53,Female,PhD,Employed,Student,5128.93,4137.61,461509.48,No,None,0.0,0,0.0,0.0,0.0,516,7.5,Africa,2021-08-07
+U00006,62,Male,Master,Employed,Student,4051.0,2244.42,194901.41,Yes,Car,407915.25,12,38219.81,22.21,9.43,718,4.01,North America,2025-02-12
+U00007,22,Female,Master,Student,Accountant,983.69,332.62,37522.56,Yes,Car,296057.6,180,6773.29,26.95,6.89,761,3.18,Asia,2024-06-01
+U00008,18,Female,Bachelor,Employed,Accountant,6199.29,4503.15,89107.54,No,None,0.0,0,0.0,0.0,0.0,540,1.2,Africa,2024-03-17
+U00009,49,Female,High School,Self-employed,Doctor,4271.51,3062.12,451923.96,No,None,0.0,0,0.0,0.0,0.0,327,8.82,Africa,2023-05-02
+U00010,61,Male,Master,Employed,Student,5216.18,4369.36,203320.5,Yes,Education,324197.37,360,6782.37,25.09,1.3,558,3.25,Asia,2024-11-23
+U00011,26,Female,Master,Employed,Manager,3677.43,2247.92,311546.91,Yes,Education,127703.79,240,1818.01,16.43,0.49,412,7.06,Other,2022-09-02
+U00012,66,Other,Bachelor,Student,Unemployed,4808.1,1537.78,202875.2,No,None,0.0,0,0.0,0.0,0.0,429,3.52,Other,2025-02-21
+U00013,61,Male,Bachelor,Employed,Student,2449.33,1804.98,109956.88,No,None,0.0,0,0.0,0.0,0.0,497,3.74,Asia,2024-09-07
+U00014,65,Female,High School,Employed,Driver,5546.28,3630.24,453101.38,Yes,Car,404941.02,60,10823.31,20.42,1.95,788,6.81,North America,2022-01-15
+U00015,57,Male,PhD,Employed,Accountant,3286.51,2287.38,323017.91,No,None,0.0,0,0.0,0.0,0.0,301,8.19,North America,2024-06-04
+U00016,65,Other,Bachelor,Unemployed,Student,5112.24,2573.59,218221.57,No,None,0.0,0,0.0,0.0,0.0,430,3.56,Africa,2021-11-03
+U00017,41,Male,Master,Unemployed,Engineer,4586.14,1389.77,93116.97,No,None,0.0,0,0.0,0.0,0.0,462,1.69,Other,2023-11-21
+U00018,58,Male,High School,Employed,Doctor,2571.3,1336.77,230407.66,No,None,0.0,0,0.0,0.0,0.0,332,7.47,Africa,2021-09-18
+U00019,68,Female,Bachelor,Employed,Unemployed,5757.35,3907.42,550538.43,No,None,0.0,0,0.0,0.0,0.0,583,7.97,North America,2022-02-14
+U00020,22,Male,Bachelor,Employed,Engineer,3520.81,1148.36,420217.83,No,None,0.0,0,0.0,0.0,0.0,345,9.95,Other,2022-07-22
+U00021,23,Male,High School,Student,Engineer,8237.77,7316.78,83622.72,Yes,Business,425717.2,36,13258.1,7.58,1.61,622,0.85,Europe,2023-03-24
+U00022,49,Female,Bachelor,Employed,Teacher,7093.07,3500.65,723648.99,Yes,Home,180386.08,240,2286.5,14.33,0.32,707,8.5,Other,2023-03-14
+U00023,24,Female,Master,Self-employed,Driver,1694.87,604.03,118470.87,Yes,Education,78365.77,180,1315.94,18.95,0.78,641,5.82,North America,2023-11-25
+U00024,69,Male,Bachelor,Employed,Salesperson,998.46,612.4,92532.51,Yes,Education,229175.32,180,1741.49,4.4,1.74,649,7.72,Asia,2022-05-22
+U00025,57,Female,Other,Employed,Driver,2676.43,1507.85,28157.7,Yes,Education,41355.61,360,745.27,21.59,0.28,357,0.88,Europe,2021-12-11
+U00026,18,Male,Bachelor,Employed,Accountant,5704.87,3971.27,196567.84,No,None,0.0,0,0.0,0.0,0.0,746,2.87,Other,2022-05-06
+U00027,39,Female,High School,Employed,Driver,3525.22,1264.5,210117.09,No,None,0.0,0,0.0,0.0,0.0,588,4.97,Other,2023-01-20
+U00028,40,Male,PhD,Unemployed,Doctor,7744.01,4063.81,585076.67,No,None,0.0,0,0.0,0.0,0.0,624,6.3,Other,2024-06-14
+U00029,21,Female,PhD,Student,Doctor,500.0,342.99,27820.22,No,None,0.0,0,0.0,0.0,0.0,567,4.64,Asia,2022-02-01
+U00030,18,Other,PhD,Employed,Teacher,6561.08,2121.71,489775.18,Yes,Home,160168.84,24,7393.94,10.04,1.13,495,6.22,Europe,2022-11-29
+U00031,67,Female,Master,Self-employed,Salesperson,4101.49,2272.56,281937.28,No,None,0.0,0,0.0,0.0,0.0,398,5.73,Africa,2023-01-16
+U00032,35,Male,Bachelor,Unemployed,Salesperson,4989.2,2211.0,408942.57,No,None,0.0,0,0.0,0.0,0.0,572,6.83,North America,2024-10-14
+U00033,37,Female,Bachelor,Unemployed,Engineer,3177.42,2777.32,259278.31,No,None,0.0,0,0.0,0.0,0.0,805,6.8,Other,2022-09-30
+U00034,22,Male,Bachelor,Self-employed,Doctor,5968.05,5178.58,561103.95,Yes,Education,247715.73,240,6187.05,29.89,1.04,432,7.83,Asia,2024-04-23
+U00035,40,Female,Master,Student,Accountant,5227.68,1885.49,58507.61,No,None,0.0,0,0.0,0.0,0.0,469,0.93,North America,2023-07-08
+U00036,67,Female,High School,Employed,Unemployed,6715.76,5990.35,306664.24,Yes,Business,119105.91,240,2948.4,29.62,0.44,431,3.81,Africa,2025-04-13
+U00037,23,Female,Bachelor,Employed,Student,5715.32,2095.91,341340.99,Yes,Business,286165.04,60,5560.36,6.21,0.97,660,4.98,North America,2023-12-28
+U00038,20,Female,Other,Employed,Engineer,3680.12,1287.07,235418.64,No,None,0.0,0,0.0,0.0,0.0,357,5.33,Africa,2022-10-04
+U00039,62,Other,High School,Unemployed,Unemployed,5687.15,1963.55,119125.28,Yes,Car,227815.99,120,4681.0,21.82,0.82,558,1.75,North America,2023-04-18
+U00040,28,Male,Other,Unemployed,Manager,1867.36,1255.01,63775.73,Yes,Home,194745.92,24,9002.72,10.18,4.82,340,2.85,Africa,2022-02-15
+U00041,44,Female,Bachelor,Employed,Doctor,970.85,368.84,9953.74,No,None,0.0,0,0.0,0.0,0.0,555,0.85,Other,2024-07-30
+U00042,64,Female,High School,Unemployed,Salesperson,5359.32,1692.58,246120.6,No,None,0.0,0,0.0,0.0,0.0,523,3.83,North America,2022-04-16
+U00043,28,Female,Bachelor,Student,Engineer,3770.92,2069.83,127007.45,Yes,Home,346165.48,120,9122.99,29.99,2.42,736,2.81,Other,2023-07-25
+U00044,54,Female,Bachelor,Employed,Accountant,6475.63,2444.52,741726.83,No,None,0.0,0,0.0,0.0,0.0,745,9.55,North America,2022-04-10
+U00045,66,Female,High School,Employed,Student,4484.67,3423.56,282513.69,No,None,0.0,0,0.0,0.0,0.0,353,5.25,Africa,2024-11-19
+U00046,22,Male,Master,Employed,Student,8094.8,6096.05,606242.03,No,None,0.0,0,0.0,0.0,0.0,734,6.24,Africa,2022-12-14
+U00047,51,Male,Bachelor,Employed,Driver,3461.19,2105.77,326383.22,Yes,Car,262277.54,12,25393.55,28.64,7.34,437,7.86,North America,2022-02-26
+U00048,27,Female,High School,Employed,Unemployed,5435.08,3236.98,218792.9,No,None,0.0,0,0.0,0.0,0.0,410,3.35,North America,2024-04-17
+U00049,40,Male,High School,Employed,Manager,5120.45,2800.87,538000.21,No,None,0.0,0,0.0,0.0,0.0,360,8.76,Europe,2021-09-11
+U00050,68,Male,High School,Employed,Unemployed,2175.74,768.52,33792.6,No,None,0.0,0,0.0,0.0,0.0,645,1.29,Europe,2025-04-14
+U00051,66,Female,Master,Employed,Accountant,7928.51,4812.56,157372.59,Yes,Education,139161.95,12,11931.17,5.28,1.5,552,1.65,Africa,2025-05-26
+U00052,32,Female,PhD,Employed,Student,3605.56,2230.97,312952.9,Yes,Car,126966.04,240,2312.37,21.55,0.64,662,7.23,Africa,2022-05-04
+U00053,62,Female,Bachelor,Employed,Accountant,2457.83,1569.03,248428.48,Yes,Home,60761.3,12,5405.96,12.26,2.2,324,8.42,Africa,2021-12-26
+U00054,27,Female,Bachelor,Employed,Unemployed,5152.35,3359.87,462465.71,No,None,0.0,0,0.0,0.0,0.0,724,7.48,Other,2024-05-24
+U00055,23,Female,Master,Employed,Unemployed,1202.86,434.32,23286.97,Yes,Business,425557.94,300,9661.11,27.21,8.03,542,1.61,Other,2024-06-30
+U00056,53,Other,Master,Employed,Doctor,5125.94,1554.08,599929.66,No,None,0.0,0,0.0,0.0,0.0,740,9.75,Europe,2022-08-18
+U00057,32,Female,Bachelor,Unemployed,Salesperson,2870.89,1594.1,176571.54,Yes,Car,353907.82,180,5875.96,18.69,2.05,438,5.13,Africa,2023-03-06
+U00058,30,Female,High School,Employed,Salesperson,1995.91,674.67,237128.63,Yes,Home,44846.19,120,434.49,3.07,0.22,849,9.9,Asia,2022-08-17
+U00059,47,Male,Master,Self-employed,Teacher,4742.29,4092.62,107794.57,Yes,Business,361076.68,300,7642.18,25.35,1.61,528,1.89,Africa,2024-12-16
+U00060,47,Female,High School,Employed,Doctor,2792.03,1367.31,198487.74,No,None,0.0,0,0.0,0.0,0.0,594,5.92,Asia,2023-12-13
+U00061,55,Female,Bachelor,Employed,Engineer,3521.64,2205.01,383467.46,No,None,0.0,0,0.0,0.0,0.0,497,9.07,Asia,2023-01-20
+U00062,24,Female,Master,Employed,Engineer,5646.21,3501.08,606371.55,No,None,0.0,0,0.0,0.0,0.0,849,8.95,North America,2025-03-19
+U00063,50,Female,Master,Employed,Doctor,7019.54,5798.56,293692.72,No,None,0.0,0,0.0,0.0,0.0,458,3.49,Africa,2022-05-21
+U00064,62,Male,Bachelor,Self-employed,Salesperson,4804.07,2843.12,239165.22,No,None,0.0,0,0.0,0.0,0.0,710,4.15,Asia,2024-03-10
+U00065,68,Female,Master,Employed,Doctor,500.0,288.6,56868.63,Yes,Education,70418.98,24,3567.2,19.51,7.13,759,9.48,Africa,2023-06-25
+U00066,53,Female,Master,Employed,Engineer,6992.09,4515.3,512364.61,No,None,0.0,0,0.0,0.0,0.0,328,6.11,North America,2023-07-19
+U00067,39,Female,High School,Employed,Doctor,4111.45,2692.03,199822.72,Yes,Education,103584.32,360,444.01,3.13,0.11,543,4.05,North America,2021-07-30
+U00068,43,Female,Bachelor,Employed,Teacher,6188.38,5266.76,439026.61,Yes,Car,71287.65,300,1116.02,18.6,0.18,479,5.91,Other,2024-02-04
+U00069,41,Male,Master,Employed,Teacher,1965.62,1723.15,37073.82,No,None,0.0,0,0.0,0.0,0.0,775,1.57,Other,2024-12-23
+U00070,57,Female,Bachelor,Employed,Student,5033.34,2798.91,484278.3,Yes,Home,96153.17,300,1525.39,18.86,0.3,670,8.02,Europe,2025-05-30
+U00071,19,Female,Bachelor,Employed,Driver,3314.62,2708.28,376535.92,Yes,Home,448817.77,24,21557.52,14.04,6.5,386,9.47,Africa,2023-11-15
+U00072,49,Female,Master,Employed,Student,3257.12,1473.3,79793.7,No,None,0.0,0,0.0,0.0,0.0,627,2.04,North America,2022-06-20
+U00073,64,Female,Master,Employed,Manager,3519.35,2580.95,361988.87,No,None,0.0,0,0.0,0.0,0.0,751,8.57,Africa,2021-11-20
+U00074,54,Male,Bachelor,Employed,Teacher,3250.36,1000.46,36918.93,Yes,Car,62265.67,36,2274.23,18.74,0.7,381,0.95,Europe,2025-04-29
+U00075,18,Female,Bachelor,Employed,Teacher,3341.34,2667.7,141034.04,No,None,0.0,0,0.0,0.0,0.0,525,3.52,Other,2024-07-15
+U00076,61,Male,Other,Self-employed,Engineer,3806.35,3125.32,224981.27,No,None,0.0,0,0.0,0.0,0.0,427,4.93,North America,2022-11-03
+U00077,67,Male,Bachelor,Employed,Accountant,2754.29,2206.07,325411.04,No,None,0.0,0,0.0,0.0,0.0,408,9.85,Europe,2024-07-23
+U00078,40,Female,Master,Employed,Doctor,3163.71,1894.6,29044.24,No,None,0.0,0,0.0,0.0,0.0,677,0.77,Africa,2021-11-08
+U00079,40,Male,High School,Employed,Unemployed,2186.84,1486.74,131034.87,No,None,0.0,0,0.0,0.0,0.0,700,4.99,Europe,2023-07-05
+U00080,38,Male,Bachelor,Employed,Unemployed,5688.88,4225.81,62785.22,No,None,0.0,0,0.0,0.0,0.0,328,0.92,Other,2023-07-04
+U00081,28,Male,Bachelor,Self-employed,Student,5082.0,2734.06,582120.37,Yes,Business,108255.25,60,2724.3,17.58,0.54,766,9.55,Asia,2023-08-26
+U00082,69,Male,Bachelor,Employed,Teacher,4265.87,2875.19,245455.57,Yes,Business,364366.19,360,6698.74,22.03,1.57,341,4.79,North America,2024-08-24
+U00083,56,Male,High School,Employed,Driver,5243.62,2708.77,63342.67,No,None,0.0,0,0.0,0.0,0.0,316,1.01,Europe,2022-06-16
+U00084,66,Male,Bachelor,Unemployed,Manager,859.55,587.39,78540.06,No,None,0.0,0,0.0,0.0,0.0,499,7.61,North America,2024-09-14
+U00085,35,Female,Bachelor,Student,Student,500.0,186.16,44022.81,Yes,Business,485558.06,240,9979.87,24.47,19.96,522,7.34,Africa,2021-11-07
+U00086,56,Male,Bachelor,Self-employed,Manager,3441.0,1507.18,53415.83,Yes,Education,265602.3,240,3287.4,13.92,0.96,338,1.29,North America,2025-03-29
+U00087,21,Female,Bachelor,Self-employed,Teacher,5426.8,4228.94,649884.11,Yes,Home,45183.16,120,755.47,15.95,0.14,571,9.98,Africa,2021-09-27
+U00088,64,Male,High School,Employed,Doctor,4094.03,3040.02,121047.06,Yes,Home,149204.44,24,6954.1,11.0,1.7,592,2.46,North America,2025-04-08
+U00089,65,Male,Other,Employed,Engineer,2093.08,1829.04,200938.05,Yes,Business,209372.81,300,4694.32,26.87,2.24,643,8.0,Asia,2024-02-05
+U00090,30,Other,Master,Employed,Manager,3449.75,2986.24,270384.58,No,None,0.0,0,0.0,0.0,0.0,792,6.53,Europe,2024-05-18
+U00091,60,Male,Bachelor,Employed,Driver,4937.13,3346.72,132805.31,No,None,0.0,0,0.0,0.0,0.0,319,2.24,Europe,2022-09-13
+U00092,66,Male,Bachelor,Self-employed,Engineer,5016.38,1968.11,492212.1,Yes,Business,374187.93,360,5948.51,19.01,1.19,656,8.18,Europe,2023-10-10
+U00093,28,Female,Bachelor,Employed,Accountant,3861.95,3317.24,341949.66,Yes,Business,186971.57,300,3408.99,21.78,0.88,475,7.38,Europe,2021-08-15
+U00094,35,Male,Bachelor,Self-employed,Salesperson,3624.84,3243.82,30840.95,No,None,0.0,0,0.0,0.0,0.0,617,0.71,Other,2022-10-19
+U00095,68,Female,Bachelor,Self-employed,Engineer,4480.05,3113.95,458081.12,No,None,0.0,0,0.0,0.0,0.0,662,8.52,Other,2025-03-31
+U00096,42,Female,High School,Self-employed,Student,4611.11,3822.53,532141.72,No,None,0.0,0,0.0,0.0,0.0,330,9.62,Europe,2025-07-16
+U00097,27,Female,Bachelor,Student,Teacher,4836.51,2923.58,9472.99,Yes,Home,163890.35,360,2746.73,20.06,0.57,522,0.16,Europe,2024-12-18
+U00098,41,Female,High School,Employed,Student,4800.82,2999.36,554991.36,Yes,Business,90569.16,120,995.07,5.77,0.21,495,9.63,Africa,2021-08-15
+U00099,49,Female,PhD,Employed,Unemployed,3532.02,1182.35,35580.5,No,None,0.0,0,0.0,0.0,0.0,569,0.84,Other,2022-02-06
+U00100,29,Female,High School,Self-employed,Student,7693.61,2611.02,760095.88,Yes,Business,385433.3,240,5086.74,15.04,0.66,729,8.23,Europe,2024-02-05
+U00101,46,Female,High School,Unemployed,Student,2914.79,2343.4,271108.54,Yes,Car,137356.5,12,13323.69,29.01,4.57,739,7.75,Africa,2024-02-18
+U00102,46,Female,Bachelor,Self-employed,Unemployed,5754.2,4350.5,309260.01,Yes,Home,447155.5,24,20376.93,8.75,3.54,823,4.48,Europe,2024-01-16
+U00103,32,Male,Bachelor,Employed,Accountant,4685.45,3572.9,475855.46,No,None,0.0,0,0.0,0.0,0.0,686,8.46,Other,2021-10-10
+U00104,61,Male,PhD,Self-employed,Accountant,4913.51,1477.68,355154.79,No,None,0.0,0,0.0,0.0,0.0,820,6.02,North America,2024-06-03
+U00105,39,Female,Bachelor,Self-employed,Engineer,3095.39,2043.0,110968.23,No,None,0.0,0,0.0,0.0,0.0,401,2.99,North America,2024-09-27
+U00106,25,Female,Master,Employed,Accountant,500.0,321.27,1691.04,No,None,0.0,0,0.0,0.0,0.0,391,0.28,Africa,2022-09-21
+U00107,50,Female,High School,Employed,Teacher,6046.28,2113.21,599502.38,Yes,Car,67225.16,240,580.0,8.42,0.1,421,8.26,Europe,2024-03-13
+U00108,32,Male,High School,Employed,Driver,4183.17,3504.38,300600.36,No,None,0.0,0,0.0,0.0,0.0,522,5.99,North America,2023-03-27
+U00109,67,Female,PhD,Self-employed,Doctor,6099.11,2122.91,655680.06,No,None,0.0,0,0.0,0.0,0.0,613,8.96,Europe,2025-05-11
+U00110,20,Male,High School,Employed,Teacher,2929.53,984.94,89514.32,Yes,Education,308255.27,36,12976.42,29.35,4.43,655,2.55,Other,2021-10-29
+U00111,25,Female,Bachelor,Employed,Teacher,5011.98,2986.97,54557.14,No,None,0.0,0,0.0,0.0,0.0,744,0.91,Other,2025-01-10
+U00112,32,Male,Bachelor,Unemployed,Manager,500.0,277.65,21148.54,Yes,Business,252917.6,24,13678.18,26.41,27.36,719,3.52,Europe,2023-03-15
+U00113,51,Female,Master,Student,Unemployed,2223.58,1179.18,125718.01,No,None,0.0,0,0.0,0.0,0.0,819,4.71,Africa,2025-07-05
+U00114,65,Female,Master,Employed,Teacher,1273.92,520.51,130832.79,No,None,0.0,0,0.0,0.0,0.0,617,8.56,Africa,2025-05-05
+U00115,64,Female,Bachelor,Self-employed,Student,3275.12,2887.5,104365.8,No,None,0.0,0,0.0,0.0,0.0,748,2.66,Africa,2021-10-15
+U00116,53,Other,Bachelor,Employed,Driver,1760.66,995.15,71323.73,No,None,0.0,0,0.0,0.0,0.0,660,3.38,North America,2021-09-18
+U00117,22,Male,Master,Self-employed,Unemployed,5694.16,3329.82,577885.77,No,None,0.0,0,0.0,0.0,0.0,455,8.46,Africa,2024-04-13
+U00118,37,Male,High School,Employed,Doctor,6445.0,2133.41,497762.51,Yes,Education,467003.63,120,5135.59,5.79,0.8,505,6.44,Africa,2024-09-30
+U00119,59,Male,Bachelor,Self-employed,Teacher,911.07,558.52,38180.42,No,None,0.0,0,0.0,0.0,0.0,450,3.49,Other,2023-07-31
+U00120,69,Female,Bachelor,Self-employed,Teacher,5006.86,2067.88,440716.54,Yes,Home,434202.98,180,4636.79,9.89,0.93,492,7.34,Europe,2023-09-21
+U00121,60,Female,Bachelor,Self-employed,Manager,4746.79,1746.18,454299.28,No,None,0.0,0,0.0,0.0,0.0,300,7.98,Asia,2021-10-31
+U00122,48,Female,Bachelor,Self-employed,Teacher,5014.03,4510.86,34735.15,No,None,0.0,0,0.0,0.0,0.0,388,0.58,Other,2023-03-25
+U00123,26,Male,Bachelor,Employed,Teacher,630.43,441.65,61260.21,No,None,0.0,0,0.0,0.0,0.0,578,8.1,Asia,2025-03-22
+U00124,62,Female,High School,Employed,Accountant,2132.56,1059.94,162221.28,No,None,0.0,0,0.0,0.0,0.0,442,6.34,Other,2022-03-19
+U00125,36,Male,Bachelor,Employed,Engineer,3393.94,2213.65,71989.52,No,None,0.0,0,0.0,0.0,0.0,302,1.77,Other,2023-08-25
+U00126,43,Female,Master,Student,Accountant,3930.59,2075.81,190948.64,No,None,0.0,0,0.0,0.0,0.0,599,4.05,Africa,2023-07-15
+U00127,32,Male,Bachelor,Self-employed,Salesperson,5517.86,2461.46,614312.76,Yes,Education,240112.43,36,7276.43,5.74,1.32,672,9.28,Africa,2023-12-08
+U00128,63,Male,Master,Employed,Doctor,4562.38,3333.19,222227.77,No,None,0.0,0,0.0,0.0,0.0,389,4.06,North America,2024-10-20
+U00129,47,Male,Master,Employed,Student,5897.88,2424.84,650117.39,No,None,0.0,0,0.0,0.0,0.0,684,9.19,Africa,2025-03-12
+U00130,62,Female,Other,Self-employed,Unemployed,2675.77,1629.83,191885.84,No,None,0.0,0,0.0,0.0,0.0,309,5.98,Europe,2021-08-10
+U00131,59,Female,Bachelor,Employed,Salesperson,6139.7,4977.48,497102.35,No,None,0.0,0,0.0,0.0,0.0,738,6.75,Europe,2025-03-25
+U00132,22,Male,Master,Unemployed,Student,2174.1,1350.58,48698.49,Yes,Car,303939.92,360,3493.33,13.55,1.61,808,1.87,North America,2022-09-07
+U00133,42,Other,High School,Self-employed,Driver,500.0,367.36,1539.77,Yes,Home,52950.72,180,876.45,18.62,1.75,466,0.26,Other,2023-12-18
+U00134,63,Male,Master,Employed,Accountant,500.0,247.01,14063.39,Yes,Business,221762.56,24,11404.13,21.08,22.81,727,2.34,Asia,2022-10-24
+U00135,49,Female,Master,Self-employed,Unemployed,3506.98,1452.57,26014.28,Yes,Home,279333.93,24,13550.6,15.05,3.86,415,0.62,Africa,2022-07-18
+U00136,53,Other,Master,Self-employed,Student,923.93,574.22,11720.2,No,None,0.0,0,0.0,0.0,0.0,311,1.06,North America,2021-11-04
+U00137,33,Female,Master,Student,Student,1815.37,1625.65,202100.99,No,None,0.0,0,0.0,0.0,0.0,585,9.28,Other,2025-02-05
+U00138,37,Female,High School,Self-employed,Engineer,3367.18,2239.48,206786.62,Yes,Education,19044.03,12,1666.67,9.14,0.49,660,5.12,Other,2023-11-25
+U00139,19,Female,Bachelor,Employed,Doctor,4386.66,3614.62,89565.02,No,None,0.0,0,0.0,0.0,0.0,442,1.7,Africa,2023-06-03
+U00140,54,Male,Bachelor,Employed,Unemployed,3807.45,3009.67,176734.39,No,None,0.0,0,0.0,0.0,0.0,761,3.87,Asia,2022-04-28
+U00141,33,Male,Master,Employed,Driver,5073.02,2575.37,594063.28,No,None,0.0,0,0.0,0.0,0.0,836,9.76,Europe,2022-11-29
+U00142,42,Male,Bachelor,Self-employed,Engineer,2203.06,1462.28,202812.39,Yes,Car,476445.97,180,4269.12,6.95,1.94,416,7.67,Europe,2023-02-13
+U00143,25,Male,Bachelor,Employed,Doctor,2121.33,1452.04,56990.24,No,None,0.0,0,0.0,0.0,0.0,359,2.24,Asia,2022-10-22
+U00144,48,Male,Master,Employed,Teacher,3711.82,2192.8,337053.01,No,None,0.0,0,0.0,0.0,0.0,762,7.57,North America,2024-01-30
+U00145,40,Male,High School,Employed,Driver,5097.06,3419.27,389532.25,Yes,Education,307994.5,60,6199.42,7.69,1.22,719,6.37,Africa,2022-04-24
+U00146,55,Male,High School,Unemployed,Driver,2155.13,1122.08,108615.57,No,None,0.0,0,0.0,0.0,0.0,809,4.2,Europe,2024-03-02
+U00147,44,Male,Master,Employed,Student,4217.69,1809.9,11134.48,Yes,Education,100229.28,120,2561.89,28.91,0.61,463,0.22,North America,2022-07-04
+U00148,52,Male,Master,Employed,Student,1762.74,686.66,28752.64,No,None,0.0,0,0.0,0.0,0.0,526,1.36,North America,2021-11-02
+U00149,46,Male,Bachelor,Self-employed,Engineer,6284.65,3535.5,197682.85,No,None,0.0,0,0.0,0.0,0.0,531,2.62,Other,2024-07-11
+U00150,45,Female,Master,Unemployed,Manager,1758.36,766.96,187897.72,No,None,0.0,0,0.0,0.0,0.0,472,8.9,Asia,2022-11-10
+U00151,22,Female,Bachelor,Self-employed,Manager,4473.92,1535.68,43241.78,Yes,Education,254781.07,300,2785.62,12.54,0.62,665,0.81,Africa,2023-07-09
+U00152,28,Other,PhD,Self-employed,Driver,3090.36,1249.94,39832.9,No,None,0.0,0,0.0,0.0,0.0,651,1.07,Europe,2024-01-01
+U00153,55,Male,Bachelor,Unemployed,Manager,5214.26,2759.2,133670.93,Yes,Home,131095.94,360,2232.72,20.39,0.43,677,2.14,Europe,2025-02-27
+U00154,27,Female,Bachelor,Student,Unemployed,6622.32,3917.83,731973.67,No,None,0.0,0,0.0,0.0,0.0,587,9.21,Africa,2022-06-16
+U00155,51,Male,Bachelor,Student,Student,3522.93,2219.64,166888.07,Yes,Business,121105.66,120,2441.67,21.25,0.69,734,3.95,North America,2022-08-14
+U00156,38,Male,Master,Unemployed,Engineer,2441.97,1111.24,160752.86,No,None,0.0,0,0.0,0.0,0.0,601,5.49,Africa,2023-09-05
+U00157,49,Male,Bachelor,Student,Unemployed,7459.78,2721.08,616277.82,Yes,Home,107542.17,36,3324.03,7.07,0.45,343,6.88,Other,2022-09-02
+U00158,39,Female,Bachelor,Employed,Unemployed,4600.38,2939.7,382013.59,No,None,0.0,0,0.0,0.0,0.0,666,6.92,North America,2023-08-01
+U00159,54,Male,Bachelor,Employed,Engineer,5078.26,2370.23,123105.75,No,None,0.0,0,0.0,0.0,0.0,790,2.02,North America,2021-12-01
+U00160,27,Female,Master,Self-employed,Teacher,4683.26,2403.59,441699.16,No,None,0.0,0,0.0,0.0,0.0,533,7.86,Europe,2021-12-16
+U00161,29,Female,Bachelor,Student,Accountant,6252.73,5034.59,356867.71,No,None,0.0,0,0.0,0.0,0.0,431,4.76,Other,2024-07-24
+U00162,21,Female,Master,Employed,Salesperson,5568.07,3885.54,7925.2,Yes,Home,310175.08,60,6274.4,7.9,1.13,319,0.12,North America,2024-09-26
+U00163,24,Female,Master,Employed,Student,3511.6,2078.72,254257.51,No,None,0.0,0,0.0,0.0,0.0,487,6.03,Africa,2021-09-13
+U00164,36,Female,High School,Employed,Unemployed,4221.64,1798.02,418894.44,No,None,0.0,0,0.0,0.0,0.0,649,8.27,North America,2023-07-20
+U00165,50,Male,Bachelor,Employed,Accountant,4379.7,2420.87,336264.04,No,None,0.0,0,0.0,0.0,0.0,698,6.4,Africa,2025-02-16
+U00166,28,Female,Other,Employed,Doctor,5153.52,2666.13,210984.81,Yes,Education,293319.26,180,3218.75,10.37,0.62,725,3.41,Asia,2024-07-04
+U00167,63,Male,Bachelor,Employed,Doctor,3615.78,2132.52,61675.88,Yes,Car,452052.75,36,15624.11,14.79,4.32,612,1.42,Africa,2024-09-10
+U00168,23,Male,Bachelor,Employed,Accountant,6781.0,5091.34,537368.97,No,None,0.0,0,0.0,0.0,0.0,707,6.6,Africa,2024-02-04
+U00169,59,Male,Bachelor,Employed,Manager,3866.94,2155.17,392730.24,Yes,Education,244298.03,300,1324.82,4.26,0.34,549,8.46,Asia,2022-08-07
+U00170,38,Female,Bachelor,Employed,Teacher,4490.56,3320.63,297905.93,Yes,Business,468474.41,300,4263.64,10.02,0.95,612,5.53,Other,2025-03-14
+U00171,38,Male,Master,Employed,Manager,1460.62,1268.14,169609.99,Yes,Education,76472.17,60,1790.89,14.29,1.23,626,9.68,North America,2023-12-25
+U00172,34,Other,Bachelor,Employed,Accountant,1853.06,1436.16,123046.95,No,None,0.0,0,0.0,0.0,0.0,793,5.53,Europe,2025-07-21
+U00173,18,Male,High School,Self-employed,Accountant,3103.24,1697.66,243714.96,No,None,0.0,0,0.0,0.0,0.0,643,6.54,Africa,2025-01-16
+U00174,27,Other,Master,Employed,Student,8020.02,6602.73,528743.19,No,None,0.0,0,0.0,0.0,0.0,513,5.49,Other,2025-04-21
+U00175,32,Female,Master,Employed,Accountant,7165.19,4548.38,478911.39,Yes,Car,454700.88,12,40730.07,13.55,5.68,526,5.57,Africa,2021-10-12
+U00176,40,Female,Bachelor,Self-employed,Driver,4759.74,1986.55,111295.7,Yes,Business,396634.36,60,8517.36,10.46,1.79,371,1.95,North America,2022-06-19
+U00177,64,Male,Master,Employed,Doctor,1542.4,1030.45,68384.41,No,None,0.0,0,0.0,0.0,0.0,339,3.69,North America,2023-08-02
+U00178,45,Male,High School,Unemployed,Salesperson,4425.49,2496.84,328802.42,Yes,Business,59704.35,240,1452.94,29.11,0.33,408,6.19,Other,2023-05-13
+U00179,38,Female,Bachelor,Student,Student,4779.77,1700.73,22409.77,No,None,0.0,0,0.0,0.0,0.0,681,0.39,Other,2024-01-19
+U00180,52,Male,Master,Unemployed,Teacher,2455.26,899.73,224505.02,No,None,0.0,0,0.0,0.0,0.0,749,7.62,Africa,2023-07-12
+U00181,61,Male,Bachelor,Unemployed,Salesperson,2803.26,2363.75,249694.64,Yes,Car,325922.64,180,6441.3,22.93,2.3,588,7.42,Africa,2021-12-04
+U00182,33,Male,Bachelor,Employed,Student,7282.09,2914.87,575631.38,No,None,0.0,0,0.0,0.0,0.0,490,6.59,Asia,2022-10-31
+U00183,21,Female,Bachelor,Employed,Salesperson,5027.82,4136.5,463607.72,No,None,0.0,0,0.0,0.0,0.0,506,7.68,Europe,2024-04-28
+U00184,68,Female,Master,Employed,Teacher,4359.16,2477.02,243635.9,No,None,0.0,0,0.0,0.0,0.0,846,4.66,Asia,2021-08-20
+U00185,47,Female,Bachelor,Employed,Manager,4663.96,2182.84,481185.38,Yes,Car,413193.49,36,16369.55,24.73,3.51,472,8.6,North America,2022-11-11
+U00186,36,Female,High School,Self-employed,Doctor,4381.0,1568.05,131153.94,Yes,Business,142630.4,120,1967.16,11.03,0.45,633,2.49,North America,2024-10-31
+U00187,21,Male,Master,Unemployed,Unemployed,3791.1,2944.73,20164.21,No,None,0.0,0,0.0,0.0,0.0,793,0.44,Europe,2024-01-07
+U00188,38,Female,High School,Unemployed,Driver,3662.36,2171.87,325301.11,No,None,0.0,0,0.0,0.0,0.0,623,7.4,Asia,2025-07-09
+U00189,34,Male,Other,Employed,Student,500.0,280.38,46568.45,No,None,0.0,0,0.0,0.0,0.0,325,7.76,Africa,2025-03-17
+U00190,46,Male,PhD,Employed,Accountant,2624.13,1893.52,77168.04,No,None,0.0,0,0.0,0.0,0.0,839,2.45,Africa,2024-11-17
+U00191,39,Female,Other,Employed,Manager,6958.16,4201.06,532518.83,Yes,Education,2457.6,180,18.46,4.23,0.0,766,6.38,Africa,2021-12-28
+U00192,59,Other,Bachelor,Employed,Manager,5222.29,3038.57,283879.59,No,None,0.0,0,0.0,0.0,0.0,348,4.53,North America,2024-03-02
+U00193,25,Male,High School,Employed,Salesperson,1098.58,591.12,7111.4,Yes,Business,44459.29,360,930.11,25.09,0.85,482,0.54,North America,2023-06-24
+U00194,56,Female,Master,Student,Engineer,3366.49,1797.45,295939.4,No,None,0.0,0,0.0,0.0,0.0,408,7.33,Africa,2025-05-05
+U00195,65,Male,Master,Student,Salesperson,4289.74,3054.1,63493.01,Yes,Car,331669.59,120,3727.34,6.27,0.87,711,1.23,Africa,2024-02-16
+U00196,66,Male,High School,Employed,Student,2770.45,1517.11,215973.83,No,None,0.0,0,0.0,0.0,0.0,565,6.5,Europe,2025-07-09
+U00197,68,Female,Master,Unemployed,Doctor,6662.96,4117.68,664212.54,No,None,0.0,0,0.0,0.0,0.0,557,8.31,North America,2023-07-29
+U00198,58,Male,Bachelor,Employed,Salesperson,5523.61,2064.74,373212.19,Yes,Car,408544.88,180,8988.4,25.83,1.63,737,5.63,Asia,2023-06-10
+U00199,35,Male,High School,Employed,Unemployed,3468.46,2702.03,343043.8,No,None,0.0,0,0.0,0.0,0.0,340,8.24,Asia,2025-01-17
+U00200,65,Male,Bachelor,Employed,Engineer,6866.84,4226.45,425659.95,Yes,Car,72154.48,300,1421.39,23.57,0.21,447,5.17,Asia,2023-01-29
+U00201,46,Female,Bachelor,Employed,Engineer,6444.25,4176.73,436217.64,Yes,Education,71135.93,120,907.68,9.17,0.14,643,5.64,Asia,2021-08-18
+U00202,20,Other,Bachelor,Employed,Unemployed,4222.34,3611.72,212810.36,Yes,Home,378350.59,120,5171.17,10.81,1.22,784,4.2,Europe,2023-09-13
+U00203,54,Female,Bachelor,Unemployed,Doctor,4028.65,1421.8,295288.07,Yes,Education,193370.44,180,3061.36,17.62,0.76,464,6.11,North America,2024-05-06
+U00204,66,Female,High School,Employed,Student,4312.38,2433.32,160063.43,Yes,Car,89408.29,120,1295.7,12.25,0.3,832,3.09,Africa,2023-02-28
+U00205,28,Female,Bachelor,Employed,Manager,2956.2,2274.6,261528.68,Yes,Home,285119.3,36,8992.59,8.44,3.04,819,7.37,Africa,2024-02-07
+U00206,22,Male,Bachelor,Employed,Salesperson,5129.63,3382.85,221554.55,No,None,0.0,0,0.0,0.0,0.0,545,3.6,Other,2024-07-15
+U00207,28,Female,High School,Self-employed,Accountant,3750.76,3332.9,219902.57,No,None,0.0,0,0.0,0.0,0.0,527,4.89,Asia,2022-09-10
+U00208,50,Female,Bachelor,Self-employed,Accountant,1654.82,856.14,144656.28,No,None,0.0,0,0.0,0.0,0.0,381,7.28,Africa,2021-08-17
+U00209,68,Female,Bachelor,Unemployed,Driver,3605.32,2928.88,192419.53,No,None,0.0,0,0.0,0.0,0.0,446,4.45,Asia,2022-08-23
+U00210,22,Female,Master,Student,Teacher,3697.45,2167.1,306523.7,No,None,0.0,0,0.0,0.0,0.0,619,6.91,Other,2023-09-03
+U00211,33,Female,Bachelor,Self-employed,Accountant,3752.54,2550.77,35276.54,Yes,Business,384692.47,360,7601.15,23.69,2.03,846,0.78,Europe,2021-09-28
+U00212,57,Male,Master,Employed,Doctor,3287.06,1789.03,29721.5,Yes,Car,316412.82,24,13622.21,3.16,4.14,382,0.75,Asia,2022-03-22
+U00213,55,Male,High School,Employed,Unemployed,784.88,344.9,27143.77,No,None,0.0,0,0.0,0.0,0.0,326,2.88,Other,2021-09-08
+U00214,56,Male,Bachelor,Self-employed,Salesperson,2474.55,792.35,66065.08,No,None,0.0,0,0.0,0.0,0.0,580,2.22,North America,2021-09-18
+U00215,40,Female,Bachelor,Unemployed,Unemployed,4419.32,1967.3,380139.18,No,None,0.0,0,0.0,0.0,0.0,707,7.17,Africa,2022-09-02
+U00216,30,Female,Master,Employed,Teacher,3016.73,1147.25,229245.7,Yes,Business,201820.87,360,850.88,3.0,0.28,453,6.33,Europe,2023-04-15
+U00217,49,Female,Master,Employed,Manager,2283.1,824.51,100446.79,Yes,Car,433407.44,60,12543.83,24.3,5.49,440,3.67,Asia,2023-09-24
+U00218,66,Male,PhD,Self-employed,Engineer,6251.18,4452.16,374227.57,Yes,Car,422280.1,240,2367.4,3.12,0.38,322,4.99,Other,2021-08-19
+U00219,38,Female,High School,Employed,Engineer,4795.4,2212.51,276590.54,No,None,0.0,0,0.0,0.0,0.0,592,4.81,Europe,2022-04-19
+U00220,34,Male,Other,Employed,Accountant,4315.5,2527.07,62074.71,No,None,0.0,0,0.0,0.0,0.0,526,1.2,Africa,2025-03-07
+U00221,58,Male,Master,Employed,Doctor,3206.68,2226.76,183765.46,No,None,0.0,0,0.0,0.0,0.0,399,4.78,Other,2022-09-16
+U00222,40,Female,Bachelor,Employed,Student,4965.05,1864.05,440732.94,No,None,0.0,0,0.0,0.0,0.0,448,7.4,Africa,2025-07-02
+U00223,57,Male,Bachelor,Employed,Driver,6004.17,4618.46,395099.13,Yes,Home,8332.0,120,205.02,27.6,0.03,697,5.48,Europe,2024-09-25
+U00224,52,Female,Bachelor,Employed,Unemployed,5034.39,2315.85,439567.45,No,None,0.0,0,0.0,0.0,0.0,677,7.28,Africa,2024-03-21
+U00225,43,Female,Bachelor,Self-employed,Engineer,4876.95,1830.47,15671.51,No,None,0.0,0,0.0,0.0,0.0,720,0.27,Other,2024-01-11
+U00226,42,Female,Bachelor,Employed,Salesperson,4039.23,2778.49,472324.53,No,None,0.0,0,0.0,0.0,0.0,756,9.74,Asia,2024-09-06
+U00227,25,Female,Master,Employed,Unemployed,4624.14,3061.07,265610.72,Yes,Business,29864.38,300,708.66,28.45,0.15,733,4.79,Asia,2023-09-07
+U00228,32,Female,Master,Employed,Student,4299.86,1653.22,323103.26,No,None,0.0,0,0.0,0.0,0.0,600,6.26,Asia,2023-02-07
+U00229,28,Other,Bachelor,Student,Engineer,5277.04,2502.91,300973.9,No,None,0.0,0,0.0,0.0,0.0,788,4.75,Europe,2022-12-20
+U00230,43,Male,High School,Self-employed,Manager,3526.46,1342.05,405551.98,No,None,0.0,0,0.0,0.0,0.0,314,9.58,Other,2022-04-11
+U00231,38,Other,Master,Student,Teacher,1384.85,796.51,93936.99,No,None,0.0,0,0.0,0.0,0.0,819,5.65,Africa,2024-04-26
+U00232,62,Male,Master,Student,Teacher,4383.32,3560.44,131266.77,No,None,0.0,0,0.0,0.0,0.0,571,2.5,Africa,2024-06-01
+U00233,52,Female,Bachelor,Student,Accountant,3564.92,3036.0,78856.54,Yes,Home,490607.74,60,14512.38,25.39,4.07,424,1.84,Europe,2025-04-11
+U00234,34,Other,Bachelor,Student,Student,1022.0,547.46,104940.56,No,None,0.0,0,0.0,0.0,0.0,794,8.56,North America,2022-04-04
+U00235,60,Female,High School,Employed,Unemployed,4612.03,3695.36,435325.81,Yes,Business,115109.71,120,1458.16,9.0,0.32,621,7.87,Asia,2023-08-05
+U00236,39,Male,High School,Employed,Doctor,6109.33,2891.74,296076.41,No,None,0.0,0,0.0,0.0,0.0,798,4.04,North America,2023-01-25
+U00237,49,Female,Bachelor,Self-employed,Doctor,4495.02,3913.17,313582.32,Yes,Home,496228.7,60,12733.59,18.49,2.83,381,5.81,Africa,2023-12-22
+U00238,18,Male,High School,Student,Doctor,4300.81,1361.26,434253.47,No,None,0.0,0,0.0,0.0,0.0,492,8.41,North America,2023-09-21
+U00239,39,Female,Bachelor,Student,Salesperson,4983.59,2773.37,199189.14,No,None,0.0,0,0.0,0.0,0.0,408,3.33,Africa,2024-03-31
+U00240,24,Female,PhD,Unemployed,Salesperson,7404.11,5611.32,732944.0,No,None,0.0,0,0.0,0.0,0.0,408,8.25,Other,2022-05-30
+U00241,25,Male,Bachelor,Unemployed,Accountant,1188.49,983.71,66375.13,Yes,Car,418077.14,60,11482.75,21.73,9.66,835,4.65,Europe,2024-02-02
+U00242,21,Male,Master,Employed,Manager,2137.46,1013.19,238976.54,Yes,Education,383007.83,360,6066.75,18.94,2.84,625,9.32,Other,2023-06-29
+U00243,27,Male,Bachelor,Employed,Doctor,5358.75,3993.01,546554.64,No,None,0.0,0,0.0,0.0,0.0,605,8.5,Other,2024-03-22
+U00244,42,Male,Bachelor,Employed,Unemployed,1702.41,925.18,46635.86,No,None,0.0,0,0.0,0.0,0.0,609,2.28,Other,2024-03-28
+U00245,25,Female,High School,Employed,Teacher,4836.8,4214.46,30180.51,Yes,Business,474655.1,360,3003.27,6.51,0.62,401,0.52,North America,2021-12-21
+U00246,18,Female,High School,Student,Manager,6803.2,2690.09,153801.68,Yes,Home,460576.27,240,3401.47,6.38,0.5,808,1.88,North America,2025-06-28
+U00247,34,Male,High School,Employed,Unemployed,4879.0,3592.09,331646.36,No,None,0.0,0,0.0,0.0,0.0,364,5.66,North America,2025-07-05
+U00248,20,Female,Bachelor,Employed,Doctor,5557.87,2949.08,23304.02,No,None,0.0,0,0.0,0.0,0.0,787,0.35,Europe,2022-07-12
+U00249,50,Other,Bachelor,Employed,Driver,4612.82,2880.43,240955.26,Yes,Business,431457.6,36,18014.88,28.72,3.91,757,4.35,North America,2024-01-03
+U00250,37,Female,Master,Employed,Unemployed,7684.96,5407.31,736570.75,Yes,Business,467713.25,24,25077.7,25.49,3.26,478,7.99,Europe,2025-03-21
+U00251,69,Female,High School,Employed,Salesperson,1941.26,1306.03,79368.68,No,None,0.0,0,0.0,0.0,0.0,368,3.41,Asia,2022-12-20
+U00252,50,Male,Bachelor,Self-employed,Salesperson,1294.66,444.41,33145.48,Yes,Education,321225.46,180,6316.65,22.8,4.88,514,2.13,Asia,2022-05-21
+U00253,46,Male,Bachelor,Employed,Accountant,1343.37,1185.4,19694.42,No,None,0.0,0,0.0,0.0,0.0,381,1.22,Europe,2023-07-08
+U00254,37,Male,Bachelor,Employed,Driver,4154.95,1758.37,243418.23,Yes,Business,275253.53,180,6776.47,29.15,1.63,738,4.88,Asia,2023-07-16
+U00255,46,Female,High School,Employed,Doctor,7346.9,5062.77,242207.9,Yes,Car,187256.65,360,3450.39,22.08,0.47,625,2.75,North America,2023-09-23
+U00256,53,Male,High School,Employed,Driver,6680.92,2428.8,130903.54,No,None,0.0,0,0.0,0.0,0.0,547,1.63,Africa,2024-11-28
+U00257,51,Male,High School,Self-employed,Doctor,4139.1,3575.32,113384.28,No,None,0.0,0,0.0,0.0,0.0,345,2.28,Europe,2022-05-16
+U00258,49,Female,Other,Employed,Teacher,5445.18,4060.44,218095.27,No,None,0.0,0,0.0,0.0,0.0,640,3.34,North America,2023-11-14
+U00259,45,Female,Master,Employed,Driver,7499.17,5119.03,224616.81,No,None,0.0,0,0.0,0.0,0.0,338,2.5,North America,2024-06-21
+U00260,40,Male,PhD,Employed,Engineer,6762.91,2898.88,225690.42,Yes,Business,178075.55,24,9306.97,22.78,1.38,613,2.78,North America,2023-09-19
+U00261,28,Female,Bachelor,Employed,Teacher,4999.37,4297.59,329245.37,Yes,Home,257291.91,240,4967.25,22.92,0.99,793,5.49,Europe,2024-05-18
+U00262,34,Female,Bachelor,Employed,Engineer,4944.0,4049.71,543506.54,No,None,0.0,0,0.0,0.0,0.0,486,9.16,Other,2022-10-25
+U00263,19,Female,Bachelor,Self-employed,Manager,7985.03,6881.25,70299.84,No,None,0.0,0,0.0,0.0,0.0,811,0.73,Asia,2022-04-23
+U00264,30,Male,Bachelor,Employed,Unemployed,2466.69,781.91,64507.61,Yes,Car,205425.86,24,9866.97,14.04,4.0,337,2.18,Other,2025-01-24
+U00265,65,Female,Master,Student,Teacher,4271.44,3037.34,61164.05,Yes,Business,462355.97,300,6993.75,17.94,1.64,576,1.19,Other,2024-11-19
+U00266,69,Female,Master,Employed,Student,4329.82,3774.26,173266.47,Yes,Home,136477.88,12,12100.37,11.6,2.79,436,3.33,Asia,2024-02-08
+U00267,62,Female,High School,Unemployed,Student,4349.64,3257.94,232176.04,No,None,0.0,0,0.0,0.0,0.0,584,4.45,Other,2022-09-24
+U00268,40,Male,Master,Employed,Student,4329.31,2414.74,386115.51,No,None,0.0,0,0.0,0.0,0.0,784,7.43,Africa,2024-11-15
+U00269,35,Male,Bachelor,Employed,Driver,2580.84,937.38,71273.83,No,None,0.0,0,0.0,0.0,0.0,839,2.3,Asia,2023-06-03
+U00270,31,Male,Bachelor,Employed,Unemployed,1482.99,640.25,170887.46,No,None,0.0,0,0.0,0.0,0.0,808,9.6,North America,2024-02-20
+U00271,64,Female,Master,Self-employed,Manager,2263.41,1358.2,113488.78,No,None,0.0,0,0.0,0.0,0.0,392,4.18,Other,2023-09-15
+U00272,65,Female,High School,Employed,Manager,5069.26,3625.76,130293.93,Yes,Education,339769.96,12,32904.64,28.69,6.49,492,2.14,North America,2023-10-20
+U00273,34,Female,Master,Employed,Salesperson,5452.01,4519.38,480215.24,No,None,0.0,0,0.0,0.0,0.0,392,7.34,North America,2025-05-27
+U00274,39,Female,Bachelor,Employed,Accountant,2118.71,1311.37,131052.26,No,None,0.0,0,0.0,0.0,0.0,728,5.15,Asia,2024-12-31
+U00275,28,Male,Bachelor,Unemployed,Driver,2205.91,717.34,128243.0,Yes,Business,484064.84,60,12959.8,20.5,5.88,381,4.84,Europe,2023-07-07
+U00276,30,Female,Bachelor,Student,Driver,2653.91,1146.67,113698.39,Yes,Car,353610.5,60,8511.06,15.53,3.21,421,3.57,Asia,2024-03-09
+U00277,49,Male,Bachelor,Self-employed,Engineer,6892.39,2462.12,93164.54,Yes,Business,383491.01,120,6682.0,17.07,0.97,779,1.13,Europe,2021-11-12
+U00278,69,Male,Master,Self-employed,Student,1222.22,852.49,51845.55,Yes,Home,454206.02,240,7485.09,19.35,6.12,789,3.53,Other,2022-08-02
+U00279,39,Female,Bachelor,Employed,Unemployed,6738.78,2771.15,488243.7,No,None,0.0,0,0.0,0.0,0.0,599,6.04,Asia,2021-09-02
+U00280,32,Female,Bachelor,Employed,Driver,500.0,396.55,39774.94,No,None,0.0,0,0.0,0.0,0.0,683,6.63,North America,2022-06-05
+U00281,64,Female,Master,Employed,Salesperson,1973.37,1296.86,64408.12,No,None,0.0,0,0.0,0.0,0.0,506,2.72,Africa,2024-08-26
+U00282,49,Female,High School,Employed,Salesperson,5402.37,4044.77,103143.36,Yes,Education,130528.65,180,1756.76,14.21,0.33,816,1.59,Africa,2023-11-07
+U00283,63,Female,Bachelor,Unemployed,Manager,5341.48,4795.02,530192.0,No,None,0.0,0,0.0,0.0,0.0,630,8.27,North America,2024-08-05
+U00284,55,Male,Other,Employed,Driver,3415.48,3069.07,102087.95,Yes,Education,159734.12,36,4688.33,3.61,1.37,798,2.49,Asia,2025-01-04
+U00285,47,Male,Master,Employed,Unemployed,1936.53,735.08,120030.63,Yes,Car,312682.41,120,4828.62,13.86,2.49,638,5.17,North America,2022-03-12
+U00286,21,Other,Master,Employed,Accountant,6226.72,2723.1,448983.89,No,None,0.0,0,0.0,0.0,0.0,839,6.01,Other,2025-02-27
+U00287,22,Other,Other,Self-employed,Engineer,5403.7,3255.2,615832.9,No,None,0.0,0,0.0,0.0,0.0,454,9.5,Europe,2025-05-01
+U00288,40,Female,Master,Employed,Accountant,3876.09,2671.34,131415.88,Yes,Business,405319.03,12,35228.09,7.84,9.09,705,2.83,Europe,2023-03-26
+U00289,64,Male,PhD,Employed,Teacher,5046.16,3632.14,508515.73,No,None,0.0,0,0.0,0.0,0.0,521,8.4,Asia,2022-09-30
+U00290,45,Female,Bachelor,Employed,Salesperson,6661.73,5331.22,516538.69,Yes,Car,296827.25,300,4751.91,19.04,0.71,307,6.46,Other,2022-05-03
+U00291,57,Male,PhD,Self-employed,Student,4663.89,1990.26,483757.44,No,None,0.0,0,0.0,0.0,0.0,454,8.64,Other,2024-11-18
+U00292,40,Male,Master,Student,Doctor,5598.36,2405.82,466432.75,No,None,0.0,0,0.0,0.0,0.0,563,6.94,Other,2025-02-03
+U00293,47,Male,Bachelor,Employed,Engineer,5459.82,2640.54,364513.98,No,None,0.0,0,0.0,0.0,0.0,370,5.56,Africa,2024-10-06
+U00294,51,Male,High School,Student,Doctor,4630.68,2607.42,297057.63,No,None,0.0,0,0.0,0.0,0.0,595,5.35,Africa,2023-08-24
+U00295,40,Female,Bachelor,Employed,Manager,3236.95,1661.18,263068.58,Yes,Education,85887.59,60,1699.46,6.97,0.53,465,6.77,Europe,2021-11-14
+U00296,48,Male,Bachelor,Unemployed,Salesperson,2839.71,1667.19,266734.12,Yes,Business,312375.24,240,2099.69,5.22,0.74,546,7.83,Europe,2023-01-10
+U00297,59,Male,Bachelor,Employed,Accountant,7665.11,5873.23,794333.15,Yes,Car,64051.88,12,6046.19,23.66,0.79,339,8.64,Africa,2024-12-08
+U00298,43,Male,Bachelor,Self-employed,Unemployed,5628.3,4519.18,248403.72,No,None,0.0,0,0.0,0.0,0.0,317,3.68,Africa,2021-10-22
+U00299,42,Female,PhD,Unemployed,Engineer,4523.9,2929.63,268572.12,No,None,0.0,0,0.0,0.0,0.0,431,4.95,Africa,2025-04-26
+U00300,56,Female,Master,Employed,Unemployed,1489.78,1210.93,31043.9,No,None,0.0,0,0.0,0.0,0.0,536,1.74,Europe,2023-10-01

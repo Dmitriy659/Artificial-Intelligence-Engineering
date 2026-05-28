@@ -49,7 +49,7 @@
    - Открытый датасет: https://www.kaggle.com/datasets/taweilo/loan-approval-classification-data;
 
 2. **Структура данных:**
-   - Основной набор данных представлен CSV-файлом: `data/loan_data.csv`, Размер датасета: 45 000 записей, 14 признаков;
+   - Размер датасета: 45 000 записей, 14 признаков;
    - Ключевые признаки: `person_age,person_gender,person_education,person_income,person_emp_exp,person_home_ownership,loan_amnt,loan_intent,loan_int_rate,loan_percent_income,cb_person_cred_hist_length,credit_score,previous_loan_defaults_on_file`. Целевая переменная: `loan_status`, где 1 — кредит одобрен, 0 — кредит не одобрен;
    - Числовые признаки: `person_age, person_income, person_emp_exp, loan_amnt, loan_int_rate, loan_percent_income, cb_person_cred_hist_length, credit_score`. Категориальные признаки: `person_gender, person_education, person_home_ownership, loan_intent, previous_loan_defaults_on_file`.
 

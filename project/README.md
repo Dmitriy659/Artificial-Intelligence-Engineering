@@ -79,6 +79,8 @@ pip install -r requirements/dev.txt
 
 ## 4. Как запустить проект
 
+Для запуска экспериментов нужно скачать датасет из пункта 5.
+
 Проект можно запустить двумя способами:
 
 * локально (Python + venv)
@@ -214,7 +216,6 @@ http://localhost:8000/docs
 
 > Для обучения использовался открытый датасет Loan Approval Classification Dataset.
 > Он доступен по ссылке https://www.kaggle.com/datasets/taweilo/loan-approval-classification-data.
-> Также он лежит по пути `data/loan_data.csv`.
 > 
 > Для тестирования анализа данных использовался открытый датасет Personal Finance ML Dataset.
 > Он доступен по пути `data/test_analyze_dataset.csv`.
